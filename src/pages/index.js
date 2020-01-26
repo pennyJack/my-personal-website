@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import "../styles/index.scss"
 import profileImg from "../images/me.jpg"
 
 const IndexPage = () => {

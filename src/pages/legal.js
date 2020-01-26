@@ -1,8 +1,10 @@
 import React from "react"
 
+import Layout from "../components/layout"
+
 const LegalPage = () => {
   return (
-    <>
+    <Layout>
       <h1>Legal Notice, Terms and Privacy Policy</h1>
       <h2>LEGAL NOTICE, TERMS AND PRIVACY POLICY (ENGLISH)</h2>
       <p>
@@ -45,7 +47,7 @@ const LegalPage = () => {
         dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
         te feugait nulla facilisi. Lorem ipsum dolor sit amet.
       </p>
-    </>
+    </Layout>
   )
 }
 
