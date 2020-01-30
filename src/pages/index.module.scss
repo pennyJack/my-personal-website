@@ -19,7 +19,6 @@
   color: #000000;
   font-size: 3rem;
   margin: 0 auto 0.8rem auto;
-  text-align: center;
 }
 
 .tagline {
@@ -48,4 +47,21 @@
 
 .nav-item:hover {
   color: #666666;
+}
+
+/*****MAIN*****/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.main-section {
+  text-align: center;
+  width: 80%;
 }

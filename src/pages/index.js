@@ -48,14 +48,14 @@ const IndexPage = () => {
         </nav>
         <hr />
       </header>
-      <main>
+      <main className={indexStyles.main}>
         <img
           src={profileImg}
           alt="André Wibbeke"
-          width="350px"
-          height="300px"
+          width="250px"
+          height="250px"
         />
-        <div>
+        <section className={indexStyles.mainSection}>
           <h2>Who are you?</h2>
           <p>
             I'm a professional digital marketing manager focusing on the
@@ -63,15 +63,15 @@ const IndexPage = () => {
             and tracking mechanisms. In my spare time, I'm involved in web
             development.
           </p>
-        </div>
-        <div>
+        </section>
+        <section className={indexStyles.mainSection}>
           <h2>What is this website about?</h2>
           <p>
             On this website, I'd like to dig deeper into tech related marketing.
             My goal is both to learn more about certain technology and to teach
             people about marketing technology.
           </p>
-        </div>
+        </section>
       </main>
       <footer>
         <ul>
