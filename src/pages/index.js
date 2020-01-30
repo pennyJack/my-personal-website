@@ -1,25 +1,48 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import "../styles/index.scss"
+import indexStyles from "./index.module.scss"
 import profileImg from "../images/me.jpg"
 
 const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    {
+      site {
+        siteMetadata {
+          title
+          tagline
+        }
+      }
+    }
+  `)
+
   return (
-    <>
-      <header>
-        <h1>André Wibbeke</h1>
-        <p>- Marketing Technologist -</p>
-        <nav>
-          <ul>
+    <div className={indexStyles.container}>
+      <header className={indexStyles.header}>
+        <h1 className={indexStyles.title}>{data.site.siteMetadata.title}</h1>
+        <h2 className={indexStyles.tagline}>
+          {data.site.siteMetadata.tagline}
+        </h2>
+        <nav className={indexStyles.mainNav}>
+          <ul className={indexStyles.navList}>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link className={indexStyles.navItem} to="/blog">
+                Blog
+              </Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link className={indexStyles.navItem} to="/about">
+                About
+              </Link>
             </li>
             <li>
-              <a href="mailto:andre.wibbeke@gmail.com">Contact</a>
+              <a
+                className={indexStyles.navItem}
+                href="mailto:andre.wibbeke@gmail.com"
+              >
+                Contact
+              </a>
             </li>
           </ul>
         </nav>
@@ -61,7 +84,7 @@ const IndexPage = () => {
           </li>
         </ul>
       </footer>
-    </>
+    </div>
   )
 }
 

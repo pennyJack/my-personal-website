@@ -6,9 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "André Wibbeke | Personal Website & Blog",
+    title: "André Wibbeke",
+    description: "Personal Website & Blog",
     tagline: "- Marketing Technologist -",
-    description: "Because good ideas deserve to be heard",
+    slogan: "Because good ideas deserve to be heard",
     author: "André Wibbeke",
   },
   plugins: [`gatsby-plugin-sass`],

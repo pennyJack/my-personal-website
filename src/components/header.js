@@ -33,7 +33,7 @@ const Header = () => {
               activeClassName={headerStyles.activeNavItem}
               to="/blog"
             >
-              About Me
+              Blog
             </Link>
           </li>
           <li>
@@ -42,7 +42,7 @@ const Header = () => {
               activeClassName={headerStyles.activeNavItem}
               to="/about"
             >
-              My Blog
+              About
             </Link>
           </li>
           <li>
