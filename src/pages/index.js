@@ -50,7 +50,11 @@ const IndexPage = () => {
           <hr />
         </header>
         <main className={indexStyles.main}>
-          <img src={profileImg} alt="André Wibbeke" />
+          <img
+            src={profileImg}
+            alt="André Wibbeke"
+            className={indexStyles.portrait}
+          />
           <section className={indexStyles.mainSection}>
             <h2>Who are you?</h2>
             <p>
