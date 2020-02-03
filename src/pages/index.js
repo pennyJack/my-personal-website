@@ -19,68 +19,72 @@ const IndexPage = () => {
 
   return (
     <div className={indexStyles.container}>
-      <header className={indexStyles.header}>
-        <h1 className={indexStyles.title}>{data.site.siteMetadata.title}</h1>
-        <h2 className={indexStyles.tagline}>
-          {data.site.siteMetadata.tagline}
-        </h2>
-        <nav className={indexStyles.mainNav}>
-          <ul className={indexStyles.navList}>
-            <li>
-              <Link className={indexStyles.navItem} to="/blog">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link className={indexStyles.navItem} to="/about">
-                About
-              </Link>
-            </li>
-            <li>
-              <a
-                className={indexStyles.navItem}
-                href="mailto:andre.wibbeke@gmail.com"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <hr />
-      </header>
-      <main className={indexStyles.main}>
-        <img
-          src={profileImg}
-          alt="André Wibbeke"
-          width="250px"
-          height="250px"
-        />
-        <section className={indexStyles.mainSection}>
-          <h2>Who are you?</h2>
-          <p>
-            I'm a professional digital marketing manager focusing on the
-            technology side of the business. I'm an expert in digital automation
-            and tracking mechanisms. In my spare time, I'm involved in web
-            development.
-          </p>
-        </section>
-        <section className={indexStyles.mainSection}>
-          <h2>What is this website about?</h2>
-          <p>
-            On this website, I'd like to dig deeper into tech related marketing.
-            My goal is both to learn more about certain technology and to teach
-            people about marketing technology.
-          </p>
-        </section>
-      </main>
-      <footer>
-        <ul>
-          <li>&#xa9; André Wibbeke</li>
+      <div className={indexStyles.content}>
+        <header className={indexStyles.header}>
+          <h1 className={indexStyles.title}>{data.site.siteMetadata.title}</h1>
+          <h2 className={indexStyles.tagline}>
+            {data.site.siteMetadata.tagline}
+          </h2>
+          <nav className={indexStyles.mainNav}>
+            <ul className={indexStyles.navList}>
+              <li>
+                <Link className={indexStyles.navItem} to="/blog">
+                  Blog
+                </Link>
+              </li>
+              <li>
+                <Link className={indexStyles.navItem} to="/about">
+                  About
+                </Link>
+              </li>
+              <li>
+                <a
+                  className={indexStyles.navItem}
+                  href="mailto:andre.wibbeke@gmail.com"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <hr />
+        </header>
+        <main className={indexStyles.main}>
+          <img src={profileImg} alt="André Wibbeke" />
+          <section className={indexStyles.mainSection}>
+            <h2>Who are you?</h2>
+            <p>
+              I'm a professional digital marketing manager focusing on the
+              technology side of the business. I'm an expert in digital
+              automation and tracking mechanisms. In my spare time, I'm involved
+              in web development.
+            </p>
+          </section>
+          <section className={indexStyles.mainSection}>
+            <h2>What is this website about?</h2>
+            <p>
+              On this website, I'd like to dig deeper into tech related
+              marketing. My goal is both to learn more about certain technology
+              and to teach people about marketing technology.
+            </p>
+          </section>
+        </main>
+      </div>
+      <footer className={indexStyles.footer}>
+        <div className={indexStyles.copyright}>&#xa9; André Wibbeke</div>
+        <ul className={indexStyles.footerNavList}>
           <li>
-            <a href="mailto:andre.wibbeke@gmail.com">Contact Me</a>
+            <a
+              className={indexStyles.navItem}
+              href="mailto:andre.wibbeke@gmail.com"
+            >
+              Contact Me
+            </a>
           </li>
           <li>
-            <Link to="/legal">Privacy &#38; Terms</Link>
+            <Link className={indexStyles.navItem} to="/legal">
+              Privacy &#38; Terms
+            </Link>
           </li>
         </ul>
       </footer>
