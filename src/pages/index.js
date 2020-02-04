@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 
 import "../styles/index.scss"
 import indexStyles from "./index.module.scss"
-import profileImg from "../images/me.jpg"
+import profileImg from "../images/me_squared.jpg"
 
 import Head from "../components/head"
 
@@ -59,7 +59,7 @@ const IndexPage = () => {
             <img
               src={profileImg}
               alt="André Wibbeke"
-              className={indexStyles.portrait}
+              className={indexStyles.portraitAvatar}
             />
             <section className={indexStyles.mainSection}>
               <h2>Who are you?</h2>

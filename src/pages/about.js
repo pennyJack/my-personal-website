@@ -1,6 +1,8 @@
 import React from "react"
 
-import profileImg from "../images/me.jpg"
+import aboutStyles from "./about.module.scss"
+import profileImg from "../images/me_squared.jpg"
+
 import Layout from "../components/layout"
 import Head from "../components/head"
 
@@ -9,7 +11,11 @@ const AboutPage = () => {
     <Layout>
       <Head title="About Me" />
       <h1>About Me</h1>
-      <img src={profileImg} alt="André Wibbeke" width="350px" height="300px" />
+      <img
+        src={profileImg}
+        alt="André Wibbeke"
+        className={aboutStyles.portraitMedium}
+      />
       <h2>HI, I'M ANDRÉ.</h2>
       <p>
         While working as digital advertising expert by day, I’m a tech
