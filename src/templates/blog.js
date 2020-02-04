@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 // To access the context from gatsby-node.js dynamically we can't use 'useStaticQuery'
 export const query = graphql`
@@ -19,6 +20,7 @@ export const query = graphql`
 const Blog = ({ data }) => {
   return (
     <Layout>
+      <Head title={data.markdownRemark.frontmatter.title} />
       <h1>{data.markdownRemark.frontmatter.title}</h1>
       <p>{data.markdownRemark.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>

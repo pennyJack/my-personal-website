@@ -2,10 +2,12 @@ import React from "react"
 
 import profileImg from "../images/me.jpg"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const AboutPage = () => {
   return (
     <Layout>
+      <Head title="About Me" />
       <h1>About Me</h1>
       <img src={profileImg} alt="André Wibbeke" width="350px" height="300px" />
       <h2>HI, I'M ANDRÉ.</h2>

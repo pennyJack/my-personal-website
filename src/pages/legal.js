@@ -1,10 +1,12 @@
 import React from "react"
 
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const LegalPage = () => {
   return (
     <Layout>
+      <Head title="Privacy &#38; Terms" />
       <h1>Legal Notice, Terms and Privacy Policy</h1>
       <h2>LEGAL NOTICE, TERMS AND PRIVACY POLICY (ENGLISH)</h2>
       <p>
