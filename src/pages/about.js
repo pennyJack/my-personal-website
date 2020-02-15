@@ -22,10 +22,7 @@ const AboutPage = () => {
         first as a SEA specialist, then transitioned to an Activation Manager
         position in Programmatic Advertising. I was responsible for planning and
         managing Programmatic campaigns for well-known brands in the health care
-        sector. While working as digital advertising expert by day, I’m a tech
-        enthusiast and coder in my spare time. I’m also a voracious reader, and
-        a passionate CrossFit athlete. Feel free to get in touch any time or
-        follow me on my Social Media accounts.
+        sector.
       </p>
       <p>
         Since I’ve been always more interested in the technology side of the
