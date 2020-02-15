@@ -18,11 +18,24 @@ const AboutPage = () => {
       />
       <h2>HI, I'M ANDRÉ.</h2>
       <p>
+<<<<<<< HEAD
         I’ve been working in the digital marketing space since January 2018,
         first as a SEA specialist, then transitioned to an Activation Manager
         position in Programmatic Advertising. I was responsible for planning and
         managing Programmatic campaigns for well-known brands in the health care
         sector.
+||||||| merged common ancestors
+        While working as digital advertising expert by day, I’m a tech
+        enthusiast and coder in my spare time. I’m also a voracious reader, and
+        a passionate CrossFit athlete. Feel free to get in touch any time or
+        follow me on my Social Media accounts.
+=======
+        I’ve been working in the digital marketing space since January 2018,
+        first as a SEA specialist, then transitioning to an Activation Manager
+        position in Programmatic Advertising. I was responsible for planning and
+        managing Programmatic campaigns for well-known brands in the health care
+        sector.
+>>>>>>> 36899c4157fdbe82734599e876f19ef696135a90
       </p>
       <p>
         Since I’ve been always more interested in the technology side of the
