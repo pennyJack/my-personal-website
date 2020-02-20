@@ -52,12 +52,11 @@ const AboutPage = () => {
       </h2>
       <p>
         Yes, there are, but very few take a holistic approach over the whole
-        MadTech ecosystem, i.e. what marketing technologies make up a modern
-        tech stack and how they need to be assembled in order to maximize value.
+        MadTech ecosystem, explaining how its individual parts fit together.
       </p>
       <p>
-        Last but not least, I find that most articles are rather shallow and
-        don’t dig deep enough to uncover what’s going on behind the curtain.
+        Last but not least, I find most articles rather shallow. They don't dig
+        deep enough to uncover what’s going on behind the curtain.
       </p>
       <h2>What else is there to know about you?</h2>
       <p>
@@ -71,10 +70,16 @@ const AboutPage = () => {
         using modern front-end technologies, like ReactJS and GatesbyJS.
       </p>
       <p>
-        I’m also hosting a bi-weekly meetup in Düsseldorf for people who are
-        interested in learning about web development with JavaScript. It not
-        only helps to understand things better but enables you to be creative
-        and build a great many things.
+        I’m also hosting a{" "}
+        <a
+          className={aboutStyles.link}
+          href="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/"
+        >
+          bi-weekly Meetup
+        </a>{" "}
+        in Düsseldorf for people who are interested in learning about web
+        development with JavaScript. It not only helps to understand things
+        better but enables you to be creative and build a great many things.
       </p>
     </Layout>
   )
