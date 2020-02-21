@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
+import "../styles/shared-styles.scss"
 import indexStyles from "./index.module.scss"
 import profileImg from "../images/me_squared.jpg"
 

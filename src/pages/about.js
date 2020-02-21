@@ -72,7 +72,7 @@ const AboutPage = () => {
       <p>
         I’m also hosting a{" "}
         <a
-          className={aboutStyles.link}
+          className="link"
           href="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/"
         >
           bi-weekly Meetup
