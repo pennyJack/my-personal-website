@@ -28,13 +28,16 @@ const AboutPage = () => {
       <p>
         Since I’ve been always more interested in the technology side of the
         business I’ve started working as Product Implementation Manager in the
-        Digital Technology Department of Dentsu Aegis Network Germany in April
-        2019.
+        Digital Technology Department of{" "}
+        <ExtLink src="https://www.dentsuaegisnetwork.com/de/de">
+          Dentsu Aegis Network Germany
+        </ExtLink>{" "}
+        in April 2019.
       </p>
       <p>
-        In a nutshell, our department oversees and maintains the digital
-        infrastructure that powers the digital advertising ecosystem. Most of
-        our efforts are focused on Programmatic Advertising but not exclusively.
+        In a nutshell, our department oversees and maintains the infrastructure
+        that powers the digital advertising ecosystem. Most of our efforts are
+        focused on Programmatic Advertising but not exclusively.
       </p>
       <p>
         We cover a myriad of topics: from advanced AI projects to advising
@@ -44,13 +47,13 @@ const AboutPage = () => {
         it’s capabilities.
       </p>
       <p>
-        Feel free to find out more about my roles on my LinkedIn profile. Don’t
-        hesitate to get in touch or send me an invitation to connect.
+        Feel free to find out more about my role on{" "}
+        <ExtLink src="https://www.linkedin.com/in/andr%C3%A9-wibbeke-aa76a4138/">
+          LinkedIn
+        </ExtLink>
+        . Don’t hesitate to get in touch or send me an invitation to connect.
       </p>
-      <h2>
-        What’s your motivation to maintain this blog? Aren’t there like a
-        thousand marketing blogs already out there?
-      </h2>
+      {/* <h2>Aren’t there like a thousand marketing blogs already out there?</h2>
       <p>
         Yes, there are, but very few take a holistic approach over the whole
         MadTech ecosystem, explaining how its individual parts fit together.
@@ -58,17 +61,19 @@ const AboutPage = () => {
       <p>
         Last but not least, I find most articles rather shallow. They don't dig
         deep enough to uncover what’s going on behind the curtain.
-      </p>
+      </p> */}
       <h2>What else is there to know about you?</h2>
       <p>
         To get a better grasp of how digital marketing technologies work it’s
-        helpful to have a better understanding of the web and get acquainted
-        with its primary technologies, namely HTML, CCS, and JavaScript.
+        helpful to have a good understanding of the web and get acquainted with
+        its primary technologies, namely HTML, CCS, and JavaScript.
       </p>
       <p>
         This is one of the reasons I decided to spend some of my spare time
         working on my web development skills. For instance, I build this website
-        using modern front-end technologies, like ReactJS and GatesbyJS.
+        using modern front-end technologies, like{" "}
+        <ExtLink src="https://reactjs.org/">ReactJS</ExtLink> and{" "}
+        <ExtLink src="https://www.gatsbyjs.org/">GatesbyJS</ExtLink>.
       </p>
       <p>
         I’m also hosting a{" "}
