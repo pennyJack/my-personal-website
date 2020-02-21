@@ -1,3 +1,25 @@
 .footer {
-  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.footer-nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    margin: 0 1rem 0 0;
+  }
+}
+
+.footer-nav-item {
+  color: #999999;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 0.9rem;
 }

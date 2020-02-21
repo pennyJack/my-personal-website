@@ -6,6 +6,7 @@ import indexStyles from "./index.module.scss"
 import profileImg from "../images/me_squared.jpg"
 
 import Head from "../components/head"
+import Footer from "../components/footer"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -80,24 +81,7 @@ const IndexPage = () => {
             </section>
           </main>
         </div>
-        <footer className={indexStyles.footer}>
-          <div className={indexStyles.copyright}>&#xa9; André Wibbeke</div>
-          <ul className={indexStyles.footerNavList}>
-            <li>
-              <a
-                className={indexStyles.navItem}
-                href="mailto:andre.wibbeke@gmail.com"
-              >
-                Contact Me
-              </a>
-            </li>
-            <li>
-              <Link className={indexStyles.navItem} to="/legal">
-                Privacy &#38; Terms
-              </Link>
-            </li>
-          </ul>
-        </footer>
+        <Footer />
       </div>
     </>
   )

@@ -73,25 +73,3 @@
   width: 80%;
   margin-top: 1.45rem;
 }
-
-/*****FOOTER*****/
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-
-.footer-nav-list {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-
-  li {
-    margin: 0 1rem 0 0;
-  }
-}
-
-.copyright {
-  font-size: 0.9rem;
-}
