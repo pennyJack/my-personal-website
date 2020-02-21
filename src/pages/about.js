@@ -5,6 +5,7 @@ import profileImg from "../images/me_squared.jpg"
 
 import Layout from "../components/layout"
 import Head from "../components/head"
+import ExtLink from "../components/link"
 
 const AboutPage = () => {
   return (
@@ -71,12 +72,9 @@ const AboutPage = () => {
       </p>
       <p>
         I’m also hosting a{" "}
-        <a
-          className="link"
-          href="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/"
-        >
+        <ExtLink src="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/">
           bi-weekly Meetup
-        </a>{" "}
+        </ExtLink>{" "}
         in Düsseldorf for people who are interested in learning about web
         development with JavaScript. It not only helps to understand things
         better but enables you to be creative and build a great many things.
