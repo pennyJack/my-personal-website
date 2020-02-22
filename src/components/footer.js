@@ -16,7 +16,9 @@ const Footer = () => {
 
   return (
     <footer className={footerStyles.footer}>
-      <div className={footerStyles.copyright}>&#xa9; André Wibbeke</div>
+      <div className={footerStyles.copyright}>
+        &#xa9; {data.site.siteMetadata.author}
+      </div>
       <ul className={footerStyles.footerNavList}>
         <li>
           <a
