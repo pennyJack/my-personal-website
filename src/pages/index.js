@@ -25,12 +25,14 @@ const IndexPage = () => {
       <div className={indexStyles.container}>
         <div className={indexStyles.content}>
           <header className={indexStyles.header}>
-            <h1 className={indexStyles.title}>
-              {data.site.siteMetadata.title}
-            </h1>
-            <h2 className={indexStyles.tagline}>
-              {data.site.siteMetadata.tagline}
-            </h2>
+            <div className={indexStyles.caption}>
+              <h1 className={indexStyles.title}>
+                {data.site.siteMetadata.title}
+              </h1>
+              <p className={indexStyles.tagline}>
+                {data.site.siteMetadata.tagline}
+              </p>
+            </div>
             <nav className={indexStyles.mainNav}>
               <ul className={indexStyles.navList}>
                 <li>
