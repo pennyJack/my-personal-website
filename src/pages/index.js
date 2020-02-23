@@ -66,7 +66,7 @@ const IndexPage = () => {
               <h2>Who are you?</h2>
               <p>
                 I'm a digital advertising specialist and web developer with over
-                two years of experience in Programmatic Advertising.
+                two years of experience in <b>Programmatic Advertising</b>.
               </p>
               <p>
                 I'm currently employed as Product Implementation Manager at
@@ -83,8 +83,8 @@ const IndexPage = () => {
                 the tech savvy reader I'll go a bit more into the details.
               </p>
               <p>
-                Last but not least I hope you find my articles applicable so you
-                may benefit from them in your own work.
+                Last but not least I hope you may be able to apply some of the
+                information received in your own work.
               </p>
             </section>
           </main>
