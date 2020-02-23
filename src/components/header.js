@@ -17,37 +17,33 @@ const Header = () => {
   return (
     <header className={headerStyles.header}>
       <nav className={headerStyles.mainNav}>
-        <Link
-          className={headerStyles.navItem}
-          activeClassName={headerStyles.activeNavItem}
-          to="/"
-        >
-          <div className={headerStyles.navLogo}>
+        <div className={headerStyles.navLogo}>
+          <Link className={headerStyles.link} to="/">
             {data.site.siteMetadata.author}
-          </div>
-        </Link>
+          </Link>
+        </div>
         <ul className={headerStyles.navList}>
-          <li>
+          <li className={headerStyles.navItem}>
             <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
+              className={headerStyles.link}
+              activeClassName={headerStyles.activeLink}
               to="/blog"
             >
               Blog
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.navItem}>
             <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
+              className={headerStyles.link}
+              activeClassName={headerStyles.activeLink}
               to="/about"
             >
               About
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.navItem}>
             <a
-              className={headerStyles.navItem}
+              className={headerStyles.link}
               href="mailto:andre.wibbeke@gmail.com"
             >
               Contact Me

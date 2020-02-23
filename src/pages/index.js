@@ -55,7 +55,6 @@ const IndexPage = () => {
                 </li>
               </ul>
             </nav>
-            <hr />
           </header>
           <main className={indexStyles.main}>
             <img
