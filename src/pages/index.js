@@ -65,18 +65,26 @@ const IndexPage = () => {
             <section className={indexStyles.mainSection}>
               <h2>Who are you?</h2>
               <p>
-                I'm a professional digital marketing manager focusing on the
-                technology side of the business. I'm an expert in digital
-                automation and tracking mechanisms. In my spare time, I'm
-                involved in web development.
+                I'm a digital advertising specialist and web developer with over
+                two years of experience in Programmatic Advertising.
+              </p>
+              <p>
+                I'm currently employed as Product Implementation Manager at
+                Dentsu Aegis Network Germany. Our team is responsible for
+                overseeing the technology landscape powering digital
+                advertising.
               </p>
             </section>
             <section className={indexStyles.mainSection}>
               <h2>What is this website about?</h2>
               <p>
-                On this website, I'd like to dig deeper into tech related
-                marketing. My goal is both to learn more about certain
-                technology and to teach people about marketing technology.
+                My goal for this website is to publish articles in a regular
+                fashion, which I hope to be both interesting and insightful. For
+                the tech savvy reader I'll go a bit more into the details.
+              </p>
+              <p>
+                Last but not least I hope you find my articles applicable so you
+                may benefit from them in your own work.
               </p>
             </section>
           </main>
