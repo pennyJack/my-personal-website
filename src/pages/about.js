@@ -29,7 +29,7 @@ const AboutPage = () => {
         Since I’ve been always more interested in the technology side of the
         business I’ve started working as Product Implementation Manager in the
         Digital Technology Department of{" "}
-        <ExtLink src="https://www.dentsuaegisnetwork.com/de/de">
+        <ExtLink to="https://www.dentsuaegisnetwork.com/de/de">
           Dentsu Aegis Network Germany
         </ExtLink>{" "}
         in April 2019.
@@ -48,7 +48,7 @@ const AboutPage = () => {
       </p>
       <p>
         Feel free to find out more about my role on{" "}
-        <ExtLink src="https://www.linkedin.com/in/andr%C3%A9-wibbeke-aa76a4138/">
+        <ExtLink to="https://www.linkedin.com/in/andr%C3%A9-wibbeke-aa76a4138/">
           LinkedIn
         </ExtLink>
         . Don’t hesitate to get in touch or send me an invitation to connect.
@@ -72,12 +72,12 @@ const AboutPage = () => {
         This is one of the reasons I decided to spend some of my spare time
         working on my web development skills. For instance, I build this website
         using modern front-end technologies, like{" "}
-        <ExtLink src="https://reactjs.org/">ReactJS</ExtLink> and{" "}
-        <ExtLink src="https://www.gatsbyjs.org/">GatesbyJS</ExtLink>.
+        <ExtLink to="https://reactjs.org/">ReactJS</ExtLink> and{" "}
+        <ExtLink to="https://www.gatsbyjs.org/">GatesbyJS</ExtLink>.
       </p>
       <p>
         I’m also hosting a{" "}
-        <ExtLink src="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/">
+        <ExtLink to="https://www.meetup.com/de-DE/hack-and-talk-meetup-duesseldorf/">
           bi-weekly Meetup
         </ExtLink>{" "}
         in Düsseldorf for people who are interested in learning about web

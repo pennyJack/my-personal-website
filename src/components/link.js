@@ -2,10 +2,10 @@ import React from "react"
 
 import linkStyles from "./link.module.scss"
 
-const Link = ({ src, children }) => {
+const Link = ({ to, children }) => {
   return (
     <a
-      href={src}
+      href={to}
       className={linkStyles.link}
       target="_blank"
       rel="noopener noreferrer"
