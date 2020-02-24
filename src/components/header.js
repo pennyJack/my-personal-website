@@ -44,7 +44,7 @@ const Header = () => {
           <li className={headerStyles.navItem}>
             <a
               className={headerStyles.link}
-              href="mailto:andre.wibbeke@gmail.com"
+              href="mailto:hackandtalk@gmail.com"
             >
               Contact Me
             </a>

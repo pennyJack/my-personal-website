@@ -48,7 +48,7 @@ const IndexPage = () => {
                 <li>
                   <a
                     className={indexStyles.navItem}
-                    href="mailto:andre.wibbeke@gmail.com"
+                    href="mailto:hackandtalk@gmail.com"
                   >
                     Contact
                   </a>
