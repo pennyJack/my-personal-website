@@ -118,7 +118,7 @@ const LegalPage = () => {
         </p>
         <h4>Server Logs</h4>
         <p>
-          For technical reasons u.a. The following data, which your Internet
+          For technical reasons i.a. the following data, which your Internet
           browser transmits to us or to our web space provider, is recorded
           (so-called server log files):
         </p>
@@ -243,8 +243,11 @@ const LegalPage = () => {
           die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der
           Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die
           Verarbeitung dieser Daten durch Google verhindern, indem sie das unter
-          dem folgenden Link verfügbare Browser-Plugin herunterladen und
-          installieren.
+          dem{" "}
+          <ExtLink to="https://tools.google.com/dlpage/gaoptout">
+            folgenden Link
+          </ExtLink>{" "}
+          verfügbare Browser-Plugin herunterladen und installieren.
         </p>
         <h4>Serverdaten</h4>
         <p>
