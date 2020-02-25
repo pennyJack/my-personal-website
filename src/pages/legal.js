@@ -9,7 +9,10 @@ import ExtLink from "../components/link"
 const LegalPage = () => {
   return (
     <Layout>
-      <Head title="Privacy &#38; Terms" />
+      <Head
+        title="Privacy &#38; Terms"
+        description="Legal Notice, Terms and Privacy Policy"
+      />
       <h1>Legal Notice, Terms and Privacy Policy</h1>
       <section>
         <h2>LEGAL NOTICE, TERMS AND PRIVACY POLICY (ENGLISH)</h2>

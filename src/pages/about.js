@@ -10,7 +10,7 @@ import ExtLink from "../components/link"
 const AboutPage = () => {
   return (
     <Layout>
-      <Head title="About Me" />
+      <Head title="About Me" description="More details about André Wibbeke" />
       <h1>About Me</h1>
       <img
         src={profileImg}
