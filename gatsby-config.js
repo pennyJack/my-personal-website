@@ -13,6 +13,13 @@ module.exports = {
     author: "André Wibbeke",
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TJ3KPTB",
+        includeInDevelopment: false,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
