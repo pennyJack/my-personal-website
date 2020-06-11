@@ -24,7 +24,7 @@ const LegalPage = () => {
           <li>André Wibbeke</li>
           <li>Ahnfeldstr. 71</li>
           <li>40239 Düsseldorf</li>
-          <li>E-Mail: hackandtalk@gmail.com</li>
+          <li>E-Mail: wibbeke.andre@gmail.com</li>
         </ul>
         <h3>Exemption from Liability:</h3>
         <h4>Liability for Content</h4>
@@ -151,7 +151,7 @@ const LegalPage = () => {
           <li>André Wibbeke</li>
           <li>Ahnfeldstr. 71</li>
           <li>40239 Düsseldorf</li>
-          <li>E-Mail: hackandtalk@gmail.com</li>
+          <li>E-Mail: wibbeke.andre@gmail.com</li>
         </ul>
         <h3>Haftungsausschluss:</h3>
         <h4>Haftung für Inhalte</h4>
