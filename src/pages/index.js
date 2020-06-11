@@ -65,8 +65,9 @@ const IndexPage = () => {
             <section className={indexStyles.mainSection}>
               <h2>Who are you?</h2>
               <p>
-                I'm a digital advertising specialist and web developer with over
-                two years of experience in <b>Programmatic Advertising</b>.
+                I'm a digital advertising specialist and analytics developer
+                with over two years of experience in{" "}
+                <b>Programmatic Advertising</b>.
               </p>
               <p>
                 I'm currently employed as Product Implementation Manager at
