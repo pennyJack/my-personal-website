@@ -23,7 +23,7 @@ const Footer = () => {
         <li>
           <a
             className={footerStyles.footerNavItem}
-            href="mailto:hackandtalk@gmail.com"
+            href="mailto:wibbeke.andre@gmail.com"
           >
             Contact Me
           </a>
