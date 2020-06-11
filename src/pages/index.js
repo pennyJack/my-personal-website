@@ -29,9 +29,9 @@ const IndexPage = () => {
               <h1 className={indexStyles.title}>
                 {data.site.siteMetadata.title}
               </h1>
-              <p className={indexStyles.tagline}>
+              {/* <p className={indexStyles.tagline}>
                 {data.site.siteMetadata.tagline}
-              </p>
+              </p> */}
             </div>
             <nav className={indexStyles.mainNav}>
               <ul className={indexStyles.navList}>
